@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinTech Dynamic Page</title>
+  <!-- Link to our JavaScript file. We use "defer" so the script runs after the HTML loads. -->
+  <script defer src="script.js"></script>
+  <!-- (Optional) Link to an external CSS file if you want to style your page. -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header with a simple navigation menu -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#interactive">Features</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area with two sections -->
+  <main>
+    <!-- First section: Welcome message -->
+    <section id="intro">
+      <h1>Welcome to FinTech</h1>
+      <p>Your trusted partner for digital financial solutions.</p>
+      <!-- Button to change the text in the intro section -->
+      <button id="changeTextBtn">Change Intro Text</button>
+    </section>
+
+    <!-- Second section: Demonstration of dynamic interactions -->
+    <section id="interactive">
+      <h2>Interactive Section</h2>
+      <p>Try out the buttons below to see some fun changes!</p>
+      <!-- Button to toggle the background color of this section -->
+      <button id="toggleStyleBtn">Toggle Section Style</button>
+      <!-- Button to add or remove a new element -->
+      <button id="addRemoveBtn">Add Element</button>
+      <!-- This div will hold our dynamically-added element -->
+      <div id="dynamicElementContainer"></div>
+    </section>
+  </main>
+
+  <!-- Footer: Simple copyright information -->
+  <footer>
+    <p>&copy; 2025 FinTech Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
